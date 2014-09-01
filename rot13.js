@@ -1,6 +1,6 @@
 var r13 = require('./index');
 var ss  = require('string-stream');
-var process = require('process');
+// var process = require('process');
 
 var src = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var result = 'nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM';

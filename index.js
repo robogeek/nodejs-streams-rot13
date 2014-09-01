@@ -18,7 +18,7 @@ module.exports.rot13encode = function(is, os) {
     is.on('data', function(chunk) {
         console.log(typeof(chunk));
         console.log(chunk);
-        os.write(rot13(typeof(chunk) === "Buffer" ? chunk.toString() : chunk));
+        os.write(rot13(typeof(chunk) === "object" ? chunk.toString() : chunk));
     });
     is.on('end', function() {
         os.end();

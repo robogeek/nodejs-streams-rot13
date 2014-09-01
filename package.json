@@ -1,0 +1,19 @@
+{
+  "author": {
+    "name": "David Herron",
+    "email": "david@davidherron.com",
+    "url": "http://nodejs.davidherron.com"
+  },
+  "name": "nodejs-streams-rot13",
+  "description": "A ROT13 filter using Node.js Streams.",
+  "homepage": "https://github.com/robogeek/nodejs-streams-rot13",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robogeek/nodejs-streams-rot13.git"
+  },
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "dependencies": { }
+}

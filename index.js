@@ -16,6 +16,8 @@ module.exports.rot13encode = function(is, os) {
     // is.setEncoding('utf8');
     // is.resume(); // start the process
     is.on('data', function(chunk) {
+        console.log(typeof(chunk));
+        console.log(chunk);
         os.write(rot13(typeof(chunk) === "Buffer" ? chunk.toString() : chunk));
     });
     is.on('end', function() {

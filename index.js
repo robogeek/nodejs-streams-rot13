@@ -13,7 +13,7 @@ var rot13 = function(s) {
  }
 
 module.exports.rot13encode = function(is, os) {
-    is.setEncoding('utf8');
+    // is.setEncoding('utf8');
     is.on('data', function(chunk) {
         os.write(rot13(s));
     });
